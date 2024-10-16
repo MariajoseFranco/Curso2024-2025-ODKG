@@ -1,10 +1,13 @@
 {
   "@context": {
     "ex": "http://example.org#",
+    "foaf": "http://xmlns.com/foaf/0.1#",
+    "schema": "http://schema.org#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
-  }
-  "full_name": "Mariajose Franco Orozco",
-  "hometown": "Medellin, Colombia",
+  },
+  "@type": "Person",
+  "foaf:fullName": "Mariajose Franco Orozco",
+  "schema:homeLocation": "Medellin, Colombia",
   "age": 25,
   "alma_mater": "Universidad EAFIT",
   "parents": {
